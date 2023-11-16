@@ -1,11 +1,10 @@
-/* https://github.com/nomadcoders/kokoa-clone-2020/tree/master/screenshots 코코아클론 스크린샷 확인*/
-
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
 @import "reset.css";
-@import "variables.css";
+@import "variables.css"; /*다른 파일에서 변수 사용하려면 먼저 써줘야*/
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* Screens */
 @import "screens/login.css";
